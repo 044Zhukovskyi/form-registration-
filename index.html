@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="container">
+		<div class="body">
+
+			<div class="boxSwitch">
+				<input id="switch" type="checkbox">
+				<label for="switch">
+					<span>Вход</span>
+					<span>Регистрация</span>
+				</label>
+			</div>
+
+			<h2>Вход</h2>
+
+      <div class="enter">
+        <form action="#">
+          <input class="emailCard" name="E-mail" type="email" placeholder="Введите E-mail" required> 
+          <input class="passwordCard" name="password" type="password" placeholder="Пароль" required> 
+
+          <div class="initialization">
+            <input id="rememberMe" type="checkbox">
+            <label for="rememberMe"> 
+              <span>Запомнить меня</span>
+            </label>
+            <a href="Забыли пароль?">Забыли пароль?</a>
+          </div>
+
+          <button class="buttonEnter" name="enter" type="enter">Войти</button>
+        </form>
+      </div>
+
+			<div class="logIn">
+        <span>Еще нет аккаунта?</span>
+        <a href="#">Зарегистрироваться</a>
+      </div>
+
+      <div class="social">
+        <span>Или войдите через</span>
+
+        <ul class="socialBox">
+          <li class="">
+            <a target="_blank" href="#">
+              <svg class="icon">
+                <use href="image/sprite.svg#FB"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="">
+            <a target="_blank" href="#">
+              <svg class="icon">
+                <use href="image/sprite.svg#INST"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="">
+              <a target="_blank" href="#">
+                <svg class="icon">
+                 <use href="image/sprite.svg#LinkIn"></use>
+                </svg>
+              </a>
+          </li>
+        </ul>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
